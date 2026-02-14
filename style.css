@@ -37,6 +37,7 @@ html, body {
   background-image: linear-gradient(80deg, #008080, #800040);
   /* animation: gradientMove 35s ease infinite; infinite animation */
   background-repeat: no-repeat;
+  background-size: 200%;
 
   /* background-size: 600% 600%;  */
   /* background-size: cover;       make sure it fills everything */
@@ -279,6 +280,10 @@ box-shadow:  7px 7px 6px #acacac,
   html, body {
     height: auto;
     padding-bottom: 4rem; /* space for footer */
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
   }
 
   /* Text scaling */
@@ -342,3 +347,4 @@ box-shadow:  7px 7px 6px #acacac,
     margin-top: 2rem;
   }
 }
+
