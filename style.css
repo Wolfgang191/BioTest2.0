@@ -232,7 +232,7 @@ footer {
   padding: 1rem 2rem;          /* more comfortable button padding */
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   border-radius: 25px;         /* fully rounded for neumorphic look */
-box-shadow:  7px 7px 6px #acacac,
+  box-shadow:  7px 7px 6px #acacac,
              -7px -7px 6px #ffffff;
 
   display: inline-block;
@@ -337,8 +337,10 @@ box-shadow:  7px 7px 6px #acacac,
 
   /* Home spacing smaller */
   .home {
-    padding: 2rem 1rem;
-    gap: 2rem;
+    font-size: 2.5rem;       /* bigger text */
+    padding: 3rem 1.5rem;    /* more padding top/bottom and sides */
+    gap: 3rem;               /* more space between items */
+
   }
 
   /* Footer static instead of fixed */
